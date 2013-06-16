@@ -13,4 +13,4 @@ Replace the fields in r.login() on line 50 in raoa_monitor.py with the login cre
 
         $ python raoa_monitor.py 
         
-Requires PRAW installation to work correctly.
+Requires PRAW (Python Reddit API Wrapper) installation to work correctly.
