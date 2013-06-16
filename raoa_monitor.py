@@ -1,5 +1,5 @@
 """
-Bot name: Flash And Intro Detection Bot(FAIDBot) for /r/Random_Acts_Of_Amazon.
+Flash And Intro Detection Bot(FAIDBot) for /r/Random_Acts_Of_Amazon.
 This Reddit bot scrapes the /r/raoa subreddit for new [Intro] posts and flash contests.
 When an [Intro] is found, a comment welcome message is posted to the submission.
 When a flash contest is found, a message with the details of the submission is posted
