@@ -2,7 +2,6 @@ FAIDBot
 =======
 
 Reddot bot that monitors /r/Random_Acts_Of_Amazon for new [Intro] submissions and flash contests.
-This Reddit bot scrapes the /r/raoa subreddit for new [Intro] posts and flash contests.
 When an [Intro] is found, a comment welcome message is posted to the submission.
 When a flash contest is found, a message with the details of the submission is posted
 to the console.
