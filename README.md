@@ -7,6 +7,7 @@ Getting Started
 ----------------
 
 Replace the fields in r.login() on line 50 in raoa_monitor.py with the login credentials of the Reddit account you wish to use as a commenter on any [Intro] submissions posted. Then run the bot with:
-        $python raoa_monitor.py 
+
+        $ python raoa_monitor.py 
         
 Requires PRAW installation to work correctly.
