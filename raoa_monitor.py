@@ -42,8 +42,8 @@ import random
 
 
 #User_ID
-user_agent = ('/r/Random_Acts_Of_Amazon Flash and Intro Detection Bot(FAIDBot)(v1.1.2)'
-              'by /u/EpimetheusIncarnate')
+user_agent = ('Flash and Intro Detection Bot(FAIDBot)(v1.1.2) by /u/EpimetheusIncarnate'
+              'github.com/ezfuzion/FAIDBot')
 r = praw.Reddit(user_agent=user_agent)
 
 #account that the agent logs in with
