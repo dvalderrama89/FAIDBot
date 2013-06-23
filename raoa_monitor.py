@@ -18,7 +18,7 @@ Version 1.1.2
 
 Version 1.1.1
 -Fixed an issue where the bot crashed due to server lag or thread deletion(120 continuous hours of runtime
-with no problems as of last trial).
+with no problems as of last trial - trial cut short due to manual console restart).
 
 Version 1.1.0
 -Added detection of flash contests(but still wrongly detects [gifted] flash submissions
