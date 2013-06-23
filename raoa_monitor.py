@@ -7,6 +7,9 @@ to the console.
 
 
 CHANGELOG:
+Version 1.1.3
+-Changed the sleep time from 31 seconds to 300 seconds (5 minutes)
+
 Version 1.1.2
 -Fixed an issue where some title combos made the bot post a comment to the wrong thread
 (e.g. [intro][contest] flash would make it skip to the next submission)
@@ -139,9 +142,8 @@ while True:
         print "NETWORK TIMEOUT @ %s" % st
         continue
         
-    #Search the new entries every 31 seconds since the page is
-    #cached for 30 seconds there's no need to call a request more often than that
-    time.sleep(31)
+    #Search new entries every 5 minutes
+    time.sleep(300)
 
     #Set timekeeping variables for output to the console
     ts = time.time()
