@@ -17,7 +17,7 @@ Version 1.1.2
 -Added additional output info to the console on submission detection
 
 Version 1.1.1
--Fixed an issue where the bot crashed due to server lag or thread deletion(48 continuous hours of running
+-Fixed an issue where the bot crashed due to server lag or thread deletion(120 continuous hours of runtime
 with no problems as of last trial).
 
 Version 1.1.0
@@ -45,7 +45,7 @@ import random
 
 
 #User_ID
-user_agent = ('Flash and Intro Detection Bot(FAIDBot)(v1.1.2) by /u/EpimetheusIncarnate'
+user_agent = ('Flash and Intro Detection Bot(FAIDBot)(v1.1.3) by /u/EpimetheusIncarnate'
               'github.com/ezfuzion/FAIDBot')
 r = praw.Reddit(user_agent=user_agent)
 
