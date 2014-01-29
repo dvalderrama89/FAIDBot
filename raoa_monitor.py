@@ -46,7 +46,7 @@ import random
 
 #User_ID
 user_agent = ('Flash and Intro Detection Bot(FAIDBot)(v1.1.3) by /u/EpimetheusIncarnate'
-              'github.com/ezfuzion/FAIDBot')
+              'github.com/epimetheusincarnate/FAIDBot')
 r = praw.Reddit(user_agent=user_agent)
 
 #account that the agent logs in with
